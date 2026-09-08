@@ -1,0 +1,19 @@
+{
+  "versija": "1.2.1",
+  "datums": "2026-09-08",
+  "kas_jauns": "Iešūta koordinātu sistēma LKS-2020 (GEOGRAPHICLOCATION/GEODATA, EPSG:10306; DWG 2018 formātā) un Map 3D/Civil 3D kods; Latvia2020.TM.xml importam bibliotēkā. Labots DWG bojājums failiem ar vairākiem formu fontu (SHX) stiliem. Automātiska atjauninājumu pārbaude. Nepārrēķināto objektu marķieri. Punkta pārrēķins X (ziemeļi) / Y (austrumi). Ieteikumi labākam rezultātam. Atbalsts: info@geonext.lv.",
+  "faili": {
+    "LKS2020_parrekins.exe": {
+      "url": "https://www.lks2020.lv/lejupielade/LKS2020_parrekins.exe",
+      "sha256": "e17124fd376685345f65d93a6581e1ce954bfa014f8d5fe68090b27699daf0c4",
+      "baiti": 34166355
+    },
+    "LKS2020_cmd.exe": {
+      "url": "https://www.lks2020.lv/lejupielade/LKS2020_cmd.exe",
+      "sha256": "ef9c120dcd3e793c1572dce4baaa35c0cb6be48fa5c04ae7e510b6ef9bf1c704",
+      "baiti": 34171172
+    }
+  },
+  "minimala_versija": "",
+  "paraksts": "SUN5HUJ5WKWBQ7YHU746GBORTEYALLZKF5V72WXWSI3H77XBVSAR6NPIFGFFJKST4VE7WCOUTZUO3ZZ4Q55ZVLEGN44OWLMR4DYN4CA"
+}

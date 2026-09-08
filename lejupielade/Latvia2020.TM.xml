@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-16" standalone="no" ?>
+<Dictionary version="1.0" xmlns="http://www.osgeo.org/mapguide/coordinatesystem">
+
+  <ProjectedCoordinateSystem id="Latvia2020.TM">
+    <Name>Latvia2020.TM</Name>
+    <Description>LKS-2020 / Latvia TM</Description>
+    <Authority>EPSG, 10306 [Latvijas Ģeotelpiskās informācijas aģentūra]</Authority>
+    <AdditionalInformation>
+      <ParameterItem type="CsMap">
+        <Key>CSQuadrantSimplified</Key>
+        <IntegerValue>1</IntegerValue>
+      </ParameterItem>
+    </AdditionalInformation>
+    <DomainOfValidity>
+      <Extent>
+        <GeographicElement>
+          <GeographicBoundingBox>
+            <WestBoundLongitude>18.5833333333333</WestBoundLongitude>
+            <EastBoundLongitude>28.7</EastBoundLongitude>
+            <SouthBoundLatitude>55.4</SouthBoundLatitude>
+            <NorthBoundLatitude>58.3333333333333</NorthBoundLatitude>
+          </GeographicBoundingBox>
+        </GeographicElement>
+      </Extent>
+    </DomainOfValidity>
+    <DatumId>Latvia2020</DatumId>
+    <Axis uom="Meter">
+      <CoordinateSystemAxis>
+        <AxisOrder>1</AxisOrder>
+        <AxisName>Northing</AxisName>
+        <AxisAbbreviation>N</AxisAbbreviation>
+        <AxisDirection>north</AxisDirection>
+      </CoordinateSystemAxis>
+      <CoordinateSystemAxis>
+        <AxisOrder>2</AxisOrder>
+        <AxisName>Easting</AxisName>
+        <AxisAbbreviation>E</AxisAbbreviation>
+        <AxisDirection>east</AxisDirection>
+      </CoordinateSystemAxis>
+    </Axis>
+    <Conversion>
+      <Projection>
+        <OperationMethodId>Transverse Mercator</OperationMethodId>
+        <ParameterValue>
+          <OperationParameterId>Longitude of natural origin</OperationParameterId>
+          <Value uom="degree">24</Value>
+        </ParameterValue>
+        <ParameterValue>
+          <OperationParameterId>Latitude of false origin</OperationParameterId>
+          <Value uom="degree">0</Value>
+        </ParameterValue>
+        <ParameterValue>
+          <OperationParameterId>Scaling factor for coord differences</OperationParameterId>
+          <Value uom="unity">0.9996</Value>
+        </ParameterValue>
+        <ParameterValue>
+          <OperationParameterId>False easting</OperationParameterId>
+          <Value uom="Meter">500000</Value>
+        </ParameterValue>
+        <ParameterValue>
+          <OperationParameterId>False northing</OperationParameterId>
+          <Value uom="Meter">-6e+06</Value>
+        </ParameterValue>
+      </Projection>
+    </Conversion>
+  </ProjectedCoordinateSystem>
+
+  <Alias id="10306" type="CoordinateSystem">
+    <ObjectId>Latvia2020.TM</ObjectId>
+    <Namespace>EPSG Code</Namespace>
+  </Alias>
+
+  <GeodeticDatum id="Latvia2020">
+    <Name>Latvia2020</Name>
+    <Description>Latvijas koordinātu sistēma LKS-2020 (ETRF2014)</Description>
+    <Authority>EPSG, 10305 [Latvijas Ģeotelpiskās informācijas aģentūra]</Authority>
+    <PrimeMeridianId>Greenwich</PrimeMeridianId>
+    <EllipsoidId>GRS1980</EllipsoidId>
+  </GeodeticDatum>
+
+  <Ellipsoid id="GRS1980">
+    <Name>GRS1980</Name>
+    <Description>Geodetic Reference System of 1980</Description>
+    <Authority>Stem, L.E., Jan 1989, State Plane Coordinate System of 1983</Authority>
+    <SemiMajorAxis uom="meter">6.37814e+06</SemiMajorAxis>
+    <SecondDefiningParameter>
+      <SemiMinorAxis uom="meter">6356752.31414035</SemiMinorAxis>
+    </SecondDefiningParameter>
+  </Ellipsoid>
+
+  <Alias id="7019" type="Ellipsoid">
+    <ObjectId>GRS1980</ObjectId>
+    <Namespace>EPSG Code</Namespace>
+  </Alias>
+
+  <Transformation id="Latvia2020_to_WGS84">
+    <Name>Latvia2020_to_WGS84</Name>
+    <Description>Latvijas koordinātu sistēma LKS-2020 (ETRF2014)</Description>
+    <Authority>EPSG, 10305 [Latvijas Ģeotelpiskās informācijas aģentūra]</Authority>
+    <OperationVersion>1</OperationVersion>
+    <CoordinateOperationAccuracy>
+      <Accuracy uom="meter">1</Accuracy>
+    </CoordinateOperationAccuracy>
+    <SourceDatumId>Latvia2020</SourceDatumId>
+    <TargetDatumId>WGS84</TargetDatumId>
+    <IsReversible>true</IsReversible>
+    <OperationMethod>
+      <OperationMethodId>Geocentric translations (geog2D domain)</OperationMethodId>
+      <ParameterValue>
+        <OperationParameterId>X-axis translation</OperationParameterId>
+        <Value uom="meter">0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <OperationParameterId>Y-axis translation</OperationParameterId>
+        <Value uom="meter">0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <OperationParameterId>Z-axis translation</OperationParameterId>
+        <Value uom="meter">0</Value>
+      </ParameterValue>
+    </OperationMethod>
+  </Transformation>
+
+</Dictionary>
