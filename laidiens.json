@@ -1,19 +1,19 @@
 {
-  "versija": "1.2.1",
-  "datums": "2026-09-08",
-  "kas_jauns": "Iešūta koordinātu sistēma LKS-2020 (GEOGRAPHICLOCATION/GEODATA, EPSG:10306; DWG 2018 formātā) un Map 3D/Civil 3D kods; Latvia2020.TM.xml importam bibliotēkā. Labots DWG bojājums failiem ar vairākiem formu fontu (SHX) stiliem. Automātiska atjauninājumu pārbaude. Nepārrēķināto objektu marķieri. Punkta pārrēķins X (ziemeļi) / Y (austrumi). Ieteikumi labākam rezultātam. Atbalsts: info@geonext.lv.",
+  "versija": "1.3.0",
+  "datums": "2026-09-10",
+  "kas_jauns": "Failu nosaukumi pēc VZD prasības kadastra reģistrācijai: rezultāts <nosaukums>_10306.dwg, oriģināls pēc pārrēķina tiek pārdēvēts par <nosaukums>_3059.dwg (rūtiņa „Oriģinālu pēc pārrēķina pārdēvēt”; komandrindā --nepardevet-originalu). Vecos sufiksus -LKS2020 / -LKS92 programma joprojām atpazīst un neapstrādā divreiz.",
   "faili": {
     "LKS2020_parrekins.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_parrekins.exe",
-      "sha256": "e17124fd376685345f65d93a6581e1ce954bfa014f8d5fe68090b27699daf0c4",
-      "baiti": 34166355
+      "sha256": "cc6b20c9d11ba1ad23a1248189e12efbd50ca75e20f8aac1b0f825be72925de6",
+      "baiti": 34169984
     },
     "LKS2020_cmd.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_cmd.exe",
-      "sha256": "ef9c120dcd3e793c1572dce4baaa35c0cb6be48fa5c04ae7e510b6ef9bf1c704",
-      "baiti": 34171172
+      "sha256": "0fe0014a30e6c87bedbe60b3f1a517bfaf81f834d02de10ffcfab62fa8065a18",
+      "baiti": 34176725
     }
   },
   "minimala_versija": "",
-  "paraksts": "ZBFYOU7VPGGSRPLHCTMKIDYM2ASCKFIDZJ3ZK3CFJZO4HDXSE5DJAQRU7CXY74UUCEJONOU4VV7G5C35XY24WYNWJWVE2L5H57GX2DI"
+  "paraksts": "CVVNQKCQCCMTGIHXD7JQW56UJ6MGNCRB3SJHYZYITI3FSLQQMDYPQHM2YYP2XA7LBUNEXXMMBXYSOEKLTN65HHKAFXH6ZB2JDBY6YCQ"
 }
