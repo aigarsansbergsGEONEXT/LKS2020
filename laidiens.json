@@ -1,19 +1,19 @@
 {
-  "versija": "1.3.0",
-  "datums": "2026-09-10",
-  "kas_jauns": "Failu nosaukumi pēc VZD prasības kadastra reģistrācijai: rezultāts <nosaukums>_10306.dwg, oriģināls pēc pārrēķina tiek pārdēvēts par <nosaukums>_3059.dwg (rūtiņa „Oriģinālu pēc pārrēķina pārdēvēt”; komandrindā --nepardevet-originalu). Vecos sufiksus -LKS2020 / -LKS92 programma joprojām atpazīst un neapstrādā divreiz.",
+  "versija": "1.3.2",
+  "datums": "2026-09-11",
+  "kas_jauns": "Labots: DWG ar OLE objektu (bilde, logo) bloka definīcijā pēc pārrēķina prasīja RECOVER, un Civil 3D zīmējuma vienības (-DWGUNITS) mainījās uz pēdām — tagad blokus programma atjauno tieši no oriģināla ar AutoCAD, vienības iestata kā oriģinālā, un rezultāts atveras bez labošanas. Failu nosaukumi pēc VZD prasības (_10306 / _3059) no 1.3.0.",
   "faili": {
     "LKS2020_parrekins.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_parrekins.exe",
-      "sha256": "cc6b20c9d11ba1ad23a1248189e12efbd50ca75e20f8aac1b0f825be72925de6",
-      "baiti": 34169984
+      "sha256": "04ab78b02c5c765eede72a03325394361f9cff59f4e71962b6762ea5be098258",
+      "baiti": 34178705
     },
     "LKS2020_cmd.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_cmd.exe",
-      "sha256": "0fe0014a30e6c87bedbe60b3f1a517bfaf81f834d02de10ffcfab62fa8065a18",
-      "baiti": 34176725
+      "sha256": "406aeb3312f3706fbd3c43f8f4128edc748e915c0aaae7c39f2dd57c6d3e8dd0",
+      "baiti": 34182818
     }
   },
   "minimala_versija": "",
-  "paraksts": "CVVNQKCQCCMTGIHXD7JQW56UJ6MGNCRB3SJHYZYITI3FSLQQMDYPQHM2YYP2XA7LBUNEXXMMBXYSOEKLTN65HHKAFXH6ZB2JDBY6YCQ"
+  "paraksts": "WOB55EVOMDNRB3ZWYHSZTF3JYECWBNCA6WXFCODMXEX7F5IMZ2FJHOQ3F3HG7PHM44MAP6DHCBFVLKTNJNU4AKSNS3C2GWQVDAQ5QCA"
 }
