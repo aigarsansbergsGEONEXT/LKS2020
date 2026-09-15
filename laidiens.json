@@ -1,19 +1,19 @@
 {
-  "versija": "1.3.3",
+  "versija": "1.3.4",
   "datums": "2026-09-15",
-  "kas_jauns": "AutoCAD versijas: programma vairs nelieto DWG TrueView konsoli (tā DWG neeksportē) un izvēlas pilnu AutoCAD; ar AutoCAD 2013–2017 rezultātu saglabā formātā līdz DWG 2013; žurnālā redzams, kurš AutoCAD lietots; Par programmu var norādīt dzinēja ceļu. Iepriekš (1.3.1–1.3.2): OLE objekti bloku definīcijās un Civil 3D vienības (-DWGUNITS) saglabātas kā oriģinālā.",
+  "kas_jauns": "Labots: DXF 2000/2004 failos objekti zaudēja izdrukas stila atsauci (5 objekti Grants14_spr.dxf) un pārbaude rezultātu noraidīja — tagad atsauce saglabājas, un kosmētiski atribūti (izdrukas stils, materiāls) pārbaudē ir brīdinājums, ne kļūda. No 1.3.3: DWG TrueView konsoli nelieto, AutoCAD 2013–2017 rezultātu saglabā formātā līdz DWG 2013, žurnālā redzams lietotais AutoCAD, Par programmu var norādīt dzinēja ceļu.",
   "faili": {
     "LKS2020_parrekins.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_parrekins.exe",
-      "sha256": "af1bf6dee81c86cfdf196c68cd0269096e1a0b658ec7d87d47d95afddfbda953",
-      "baiti": 34180460
+      "sha256": "1349ea002d1a50867c3a2eaebe012ce27bdc0fee52346896d8208fcf0fd6d59a",
+      "baiti": 34183438
     },
     "LKS2020_cmd.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_cmd.exe",
-      "sha256": "43de974e4189e4252469b9458156405229f3642c8499b202c77831d958ff540d",
-      "baiti": 34187761
+      "sha256": "51c415e588ed6df0e2ce74244d75b71ccc3663ee6f6d68e92db6ba7c9c1b0bd4",
+      "baiti": 34189358
     }
   },
   "minimala_versija": "",
-  "paraksts": "7TDDD7IDQFD5WITAKTMRVFAVFKFPMRKVA4BMI33XVXNYFRS5TVVEX43YV2V3L6FJA7H7ILWXQGJFBSHFG3P6XX2XGHANS6UJBSSBOBY"
+  "paraksts": "EN5SHHGJVEL3JLQRWXTDVPCTF6TCI5AKFFCLVBDPYRFLZMQEELKMR3MV4VJVYIXAMK7BMZAOMPPBGX2XUX4TQMGJU7M4EOUPMQBRCCY"
 }
