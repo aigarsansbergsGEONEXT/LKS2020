@@ -1,19 +1,19 @@
 {
-  "versija": "1.3.4",
-  "datums": "2026-09-15",
-  "kas_jauns": "Labots: DXF 2000/2004 failos objekti zaudēja izdrukas stila atsauci (5 objekti Grants14_spr.dxf) un pārbaude rezultātu noraidīja — tagad atsauce saglabājas, un kosmētiski atribūti (izdrukas stils, materiāls) pārbaudē ir brīdinājums, ne kļūda. No 1.3.3: DWG TrueView konsoli nelieto, AutoCAD 2013–2017 rezultātu saglabā formātā līdz DWG 2013, žurnālā redzams lietotais AutoCAD, Par programmu var norādīt dzinēja ceļu.",
+  "versija": "1.3.5",
+  "datums": "2026-09-18",
+  "kas_jauns": "Labots: bojātu DWG (AutoCAD DXF eksports pārtrūkst, 'missing ENDSEC') programma tagad eksportē pēc AUDIT un žurnālā ziņo, cik kļūdu AutoCAD laboja; oriģināls nemainās. LASI_MANI klientam tagad .txt. No 1.3.3–1.3.4: TrueView konsoli nelieto, AutoCAD 2013–2017 → DWG 2013, izdrukas stila atsauces DXF 2000 failos saglabājas, kosmētiski atribūti pārbaudē ir brīdinājums.",
   "faili": {
     "LKS2020_parrekins.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_parrekins.exe",
-      "sha256": "1349ea002d1a50867c3a2eaebe012ce27bdc0fee52346896d8208fcf0fd6d59a",
-      "baiti": 34183438
+      "sha256": "8accd2aee2076994c4b6114f3b894ae8758961ceae289b52eb6d42f5ff8989ab",
+      "baiti": 34184394
     },
     "LKS2020_cmd.exe": {
       "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_cmd.exe",
-      "sha256": "51c415e588ed6df0e2ce74244d75b71ccc3663ee6f6d68e92db6ba7c9c1b0bd4",
-      "baiti": 34189358
+      "sha256": "3974c66e9f7c31eec0d23b5160148a08201739a39fbbfc77141bbf392171ba68",
+      "baiti": 34190649
     }
   },
   "minimala_versija": "",
-  "paraksts": "EN5SHHGJVEL3JLQRWXTDVPCTF6TCI5AKFFCLVBDPYRFLZMQEELKMR3MV4VJVYIXAMK7BMZAOMPPBGX2XUX4TQMGJU7M4EOUPMQBRCCY"
+  "paraksts": "DOQX3OTTX25DVRCWAPMWCHZCNXGSSKTZ5ATYD5WU4OC6UB2K5YHTKVURWO6IDSIM3NHXSPDBKUNWN4ZUFLV5HGFJ77IH6PGJ566M4DA"
 }
