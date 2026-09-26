@@ -4,16 +4,16 @@
   "kas_jauns": "Koordinātu sistēma tagad tiek iešūta visos DWG formātos no 2007 (ne tikai 2018); ja AutoCAD LKS-2020 nezina, brīdinājums ar risinājumu. Logā labāka lasāmība: uzvedne ar pilnu rezultāta tekstu, dubultklikšķis rāda faila žurnālu, žurnāls ar rindu pārnesumu. No 1.3.5–1.3.6: bojātu DWG eksportē pēc AUDIT, RAY/XLINE pārbaudē, LASI_MANI.txt.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_parrekins.exe",
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.7/LKS2020_parrekins.exe",
       "sha256": "c7958dfb72f44655058fa39df4ea0bcf7eb8a84a20ddb9a522dde1d788067ac4",
       "baiti": 34189030
     },
     "LKS2020_cmd.exe": {
-      "url": "https://raw.githubusercontent.com/aigarsansbergsGEONEXT/LKS2020/refs/heads/main/lejupielade/LKS2020_cmd.exe",
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.7/LKS2020_cmd.exe",
       "sha256": "978f4881e7fdcbb69b6d80bdfbfc7884850b7685d54cc5c4c0b839f2d6050657",
       "baiti": 34192632
     }
   },
   "minimala_versija": "",
-  "paraksts": "IKC4INE5U5GOVZT72X3RSP5JXEPFTV6WSOFFW2XDNX3QFAMHUEIPV46QTLHQAGYRCRSHQZKMPX2EZKWQU5LFOVBQRTX4W3IW5HMHYDI"
+  "paraksts": "XF6AFN3BXF7KACKJRSKTFFZUOL7NFF7UZYJSVGDQSANAAB7OUITZJJTGBPWMDPYLT5ARWSS4XRFKEC4D3DT35YOIBTYOKSRM6LQIADY"
 }
