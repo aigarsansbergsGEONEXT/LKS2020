@@ -1,19 +1,19 @@
 {
-  "versija": "1.3.8",
+  "versija": "1.3.9",
   "datums": "2026-09-26",
-  "kas_jauns": "Žurnāls kā dokuments: licences turētājs un numurs, dators un lietotājs, oriģināla un rezultāta SHA-256, pārrēķināto objektu aptvērums un nobīde pa asīm; žurnālu var saglabāt kā PDF atskaiti (poga „Saglabāt PDF…“, komandrindā --pdf). No 1.3.7: koordinātu sistēma visos DWG formātos no 2007, labāka žurnāla lasāmība.",
+  "kas_jauns": "PDF atskaite kompaktāka: parasti viena lapa, failu tabula ar aptvērumu, nobīdi pa asīm un pārbaudi, kontrolsummas vienreiz, tikai brīdinājumi; pilns žurnāls paliek teksta failā. No 1.3.8: žurnālā licences turētājs un numurs, dators, SHA-256, aptvērums, nobīde pa asīm.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.8/LKS2020_parrekins.exe",
-      "sha256": "54174fd63062dedf306f19a2f03f2c278289eaa463919a7f2c89a65dc5e91b6b",
-      "baiti": 35174361
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.9/LKS2020_parrekins.exe",
+      "sha256": "486cab19e06ca400468abf09c2e01f64b6c7bd737e8edf57a46562056e2894e7",
+      "baiti": 35176727
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.8/LKS2020_cmd.exe",
-      "sha256": "278970901542127b6f0dcf621efccaa8a11efd38be3b691c48e4d5050e91811f",
-      "baiti": 35179170
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.9/LKS2020_cmd.exe",
+      "sha256": "797c7fd8afac6c3e6fe1b9324da6b87e651aabaa2f9cc937dc9fb0e722798596",
+      "baiti": 35180554
     }
   },
   "minimala_versija": "",
-  "paraksts": "2U6THGFD3L5BSEOSJSODV26YAR3QZA6OWJIISVHPWJEFF5LYAEZSC4O2WKGLF7EH5TAKYWOKGGC5FU7J3ENOJ4UYL24MDX2LXPTRSDA"
+  "paraksts": "4FQEQSPDYTF3DZRHPFJ46J6563DLX5O4MK4RRZ6SVZGSDVMHX3SG6KYPMXGRBYYKNXCTYHQR3PVMNU3XWE65FI5X45V3IO7H5Q3H6DI"
 }
