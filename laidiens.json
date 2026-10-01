@@ -1,19 +1,19 @@
 {
-  "versija": "1.3.10",
-  "datums": "2026-09-26",
-  "kas_jauns": "PDF atskaites tabula: viena rinda katram failam (objekti, aptvērums metros, nobīde mm, pārbaude); aptvēruma robežas, nobīde pa asīm un kontrolsummas zem tabulas. No 1.3.8: žurnālā licences turētājs un numurs, dators, SHA-256, aptvērums, nobīde pa asīm; PDF atskaite (poga „Saglabāt PDF…“, --pdf).",
+  "versija": "1.3.11",
+  "datums": "2026-10-01",
+  "kas_jauns": "Mērinstrumentu programmu DXF: 3D polilīnijas, kam polilīnijas karogs ir 0, bet virsotnes ir 3D ar augstumiem (uzmērījuma faili, slānis Survey), tagad tiek pārrēķinātas kā 3D — augstumi saglabājas; iepriekš pārbaude ziņoja „mainīta Z“ un rezultātu nelietoja. Žurnālā rinda „3D polilīnijas ar nepilnu karogu salabotas“.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.10/LKS2020_parrekins.exe",
-      "sha256": "47a426da839de607c26aa944efe6a89d04174014edc9ee07e2b8220bbf3f408d",
-      "baiti": 35176684
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.11/LKS2020_parrekins.exe",
+      "sha256": "0f7b9ff3ce18d567621377eee8a86b5c71e01af46d1d77f4f132529a78987daa",
+      "baiti": 35177618
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.10/LKS2020_cmd.exe",
-      "sha256": "67c7719361d534fdcd468e7f8dc82330dde64132e02c2caa840c9064d78825d5",
-      "baiti": 35181538
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.11/LKS2020_cmd.exe",
+      "sha256": "6ce2d74a28c7a9187651c1ec5d6a02455bc1108ef51c87d183ad5bfe315e923f",
+      "baiti": 35182501
     }
   },
   "minimala_versija": "",
-  "paraksts": "Z6PWESV2Z5K3WSQA2XJRENZCWYMMM6ZLHK3ZF5MAA5CT3DF226UYHT3MBX3DE3E7F5UROMIUWZXNKAGG4ES3JNPN77IOSK3XM6KSWCQ"
+  "paraksts": "IFYIFJ73SGENJKITR5BKE7B324YURBMLBS4RYTMM45R67HGPBEOL2KTNUDSC4CA47NKS2OXB7EDRIV6NEAON2JGGKFMSRU47EISTICY"
 }
