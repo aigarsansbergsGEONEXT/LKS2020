@@ -1,19 +1,19 @@
 {
-  "versija": "1.3.11",
+  "versija": "1.3.12",
   "datums": "2026-10-01",
-  "kas_jauns": "Mērinstrumentu programmu DXF: 3D polilīnijas, kam polilīnijas karogs ir 0, bet virsotnes ir 3D ar augstumiem (uzmērījuma faili, slānis Survey), tagad tiek pārrēķinātas kā 3D — augstumi saglabājas; iepriekš pārbaude ziņoja „mainīta Z“ un rezultātu nelietoja. Žurnālā rinda „3D polilīnijas ar nepilnu karogu salabotas“.",
+  "kas_jauns": "Labots: ja programma pēdējo reizi aizvērta uz otrā monitora un tas vairs nav pieslēgts, logs atvērās ārpus ekrāna (redzams tikai uzdevumjoslā) — tagad atveras redzamā vietā, saglabājot izmēru. No 1.3.12: uzmērījuma DXF 3D polilīnijas ar „2D“ tipa karogu pārrēķina kā 3D, augstumi saglabājas.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.11/LKS2020_parrekins.exe",
-      "sha256": "0f7b9ff3ce18d567621377eee8a86b5c71e01af46d1d77f4f132529a78987daa",
-      "baiti": 35177618
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.12/LKS2020_parrekins.exe",
+      "sha256": "f01b41731e079b6953db5b92d96b958eaa37555d7a099adfa910d003a69ba8da",
+      "baiti": 35179138
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.11/LKS2020_cmd.exe",
-      "sha256": "6ce2d74a28c7a9187651c1ec5d6a02455bc1108ef51c87d183ad5bfe315e923f",
-      "baiti": 35182501
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.3.12/LKS2020_cmd.exe",
+      "sha256": "b71a36586c17fc55a0f5a8416a0bb67dce97cb92cae29b087e3b65a6ca6db3fe",
+      "baiti": 35184124
     }
   },
   "minimala_versija": "",
-  "paraksts": "IFYIFJ73SGENJKITR5BKE7B324YURBMLBS4RYTMM45R67HGPBEOL2KTNUDSC4CA47NKS2OXB7EDRIV6NEAON2JGGKFMSRU47EISTICY"
+  "paraksts": "WZWCCJEDYA6L3NKMSJ6N2FNNHCQWDYG3FKNUHAY6PMXJ6JC6GMGTO63NRQTFOXGM3FOUSWHO7UL3WP6ZYSNTX3RHHA3WQASTBDEZ4DQ"
 }
