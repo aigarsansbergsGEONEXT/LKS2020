@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.1",
+  "versija": "1.4.2",
   "datums": "2026-10-05",
-  "kas_jauns": "Labots: veca formāta DXF (DXF 2000 / 2004) no mūsdienu CAD programmām — rezultātā tagad tiek saglabāts viss, kas bija failā (MTEXT fona aizpildījums, MULTILEADER teksta piesaiste, true color, slāņu materiāli); iepriekš pārbaude šādus failus noraidīja („mainīti atribūti“). MULTILEADER objekti šādos failos vairs nepazūd ODA bāzes programmās. Žurnālā oriģināla SHA-256 vairs nav tukšs pēc pārdēvēšanas. No 1.4.0: DWG pārrēķins bez AutoCAD ar bezmaksas ODA File Converter.",
+  "kas_jauns": "Jauns: terminēta licence — licence, kas der līdz noteiktam datumam (izmēģinājuma pagarināšanai vai īslaicīgai lietošanai). Uzstādāma tāpat kā parastā licence; termiņš redzams loga augšā un žurnālā. Parastās (beztermiņa) licences nemainās. No 1.4.1: veca formāta DXF saglabā visus datus; no 1.4.0: DWG pārrēķins bez AutoCAD ar ODA File Converter.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.1/LKS2020_parrekins.exe",
-      "sha256": "8021b027ff90ffa5492859e17921cae296f5a87972e8ba9a9972909d2c2a18c2",
-      "baiti": 35257594
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.2/LKS2020_parrekins.exe",
+      "sha256": "5337514499773a31dc2ffa6b2574e4b3aa17fc6c9f6b3dff8f7e0acc464a511b",
+      "baiti": 35260977
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.1/LKS2020_cmd.exe",
-      "sha256": "b2b6be637e3164c4cd3175cea1e8c5207efadaa8b7fb9e4a1030c80ba9495d8f",
-      "baiti": 35264101
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.2/LKS2020_cmd.exe",
+      "sha256": "1c891ba498118a8c51c053bb2d907c4ff02ab6308e0e10efeb1bf97128362aa1",
+      "baiti": 35266933
     }
   },
   "minimala_versija": "",
-  "paraksts": "AA4K6T5JQJ7MFTUJFPRDVB3BYXJ2EAERJHIFHC2KA25GPFCQOLSBPET2BW3S3R32BYLMBF4ZTJHG4PNXKY46HGV7LNKHA4FGB6TC4AY"
+  "paraksts": "4WJXJQGLFHLRLU4GP2WXEQ4JE5F45CREYW5IQV54PKKBSOYYVSQI3U4UJC237E552PPGWU26MSLWXF35BNVWB5KVQIINFXVEA4ERIAQ"
 }
