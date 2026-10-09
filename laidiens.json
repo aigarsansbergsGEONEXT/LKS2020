@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.4",
+  "versija": "1.4.5",
   "datums": "2026-10-09",
-  "kas_jauns": "Koordinātu pārrēķina akts PDF tagad top ar pogu „Sagatavot aktu…“: lietotājs ieraksta, kas pārrēķināja (programma atceras), uzņēmumu un datumu; paraksta rindas aktā nav. Komandrindā --akts --parrekinaja. No 1.4.4: koordinātu sarakstos, kur abas koordinātas ir 280–470 km, secību pēc vērtībām noteikt nevar — pieņem X = ziemeļi, Y = austrumi (kā LĢIA kalkulatorā), pajautā un brīdina; galvene Nr;X;Y secību nosaka.",
+  "kas_jauns": "Koordinātu pārrēķina akta virsraksts: „… KOORDINĀTU PĀRRĒĶINS UZ LKS-2020 TM KOORDINĀTU SISTĒMU“. No 1.4.5: akts ar pogu „Sagatavot aktu…“ (pārrēķinātājs, uzņēmums, datums; bez paraksta rindas); no 1.4.3: koordinātu sarakstos ar abām koordinātām 280–470 km pieņem X = ziemeļi, Y = austrumi, pajautā un brīdina; galvene Nr;X;Y secību nosaka.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.4/LKS2020_parrekins.exe",
-      "sha256": "f092fdb54ba8068fb4e3840b59c6bc82f91fb9b76b070ad89099dbd2ee0805ae",
-      "baiti": 35273500
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.5/LKS2020_parrekins.exe",
+      "sha256": "3ba4036f8de3e0b6e726480b3b3e78b59fd7df01b3cb2947ba423a75b699747b",
+      "baiti": 35273789
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.4/LKS2020_cmd.exe",
-      "sha256": "92c57bea287eadaec08693d5c4f436e6e1cc4ee657e7c6c6de46b3bf775486dc",
-      "baiti": 35277379
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.5/LKS2020_cmd.exe",
+      "sha256": "38b7084e26751216b3a583fd35af467102dc0e3fb52e1fe2b34c6561aee15c36",
+      "baiti": 35279508
     }
   },
   "minimala_versija": "",
-  "paraksts": "4ASZFQDPJ5FPRRSNCS4GNONNBKG6PM5TOUL4SWRRD7MKKH76BLXEIH36LXSJQ4ERGGOQFADQG4SYRPQ7O2JB2TMOVIEEEF4CAQEM2BQ"
+  "paraksts": "5M22EKRWDKN573X6HKJ3ZCONKWWJRRPTXBBVOIXDX5X7UYH27FPGWITV5GYNNCRVZMTXVI6SYGOAIAH7K2YJGZTYPISLEJ2MUM2TOCI"
 }
