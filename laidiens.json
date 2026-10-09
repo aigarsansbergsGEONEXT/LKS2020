@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.3",
+  "versija": "1.4.4",
   "datums": "2026-10-09",
-  "kas_jauns": "Labots: koordinātu sarakstos (CSV/TXT), kur abas koordinātas ir 280–470 km robežās (Kurzeme, Zemgale), programma X/Y secību pēc vērtībām noteikt nevar un klusi pieņēma Y, X — rezultāts bija nepareizs. Tagad pieņem X = ziemeļi, Y = austrumi (kā LĢIA kalkulatorā), logā pajautā secību un žurnālā brīdina; galvenes rinda Nr;X;Y secību nosaka viennozīmīgi. Jauns: koordinātu pārrēķina akts PDF (<rezultāts>_akts.pdf) katram sarakstam — iesniegšanai VZD lietās.",
+  "kas_jauns": "Koordinātu pārrēķina akts PDF tagad top ar pogu „Sagatavot aktu…“: lietotājs ieraksta, kas pārrēķināja (programma atceras), uzņēmumu un datumu; paraksta rindas aktā nav. Komandrindā --akts --parrekinaja. No 1.4.4: koordinātu sarakstos, kur abas koordinātas ir 280–470 km, secību pēc vērtībām noteikt nevar — pieņem X = ziemeļi, Y = austrumi (kā LĢIA kalkulatorā), pajautā un brīdina; galvene Nr;X;Y secību nosaka.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.3/LKS2020_parrekins.exe",
-      "sha256": "ef8fa5190341e6d0fc8de74e61d4ba594f63e7c46c3fa78667dc01a927cbb3db",
-      "baiti": 35271487
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.4/LKS2020_parrekins.exe",
+      "sha256": "f092fdb54ba8068fb4e3840b59c6bc82f91fb9b76b070ad89099dbd2ee0805ae",
+      "baiti": 35273500
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.3/LKS2020_cmd.exe",
-      "sha256": "a6c8c99eea0c40d9558d88d23bacf3ad86e55489b6479c5b001a65f2d48fa972",
-      "baiti": 35276076
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.4/LKS2020_cmd.exe",
+      "sha256": "92c57bea287eadaec08693d5c4f436e6e1cc4ee657e7c6c6de46b3bf775486dc",
+      "baiti": 35277379
     }
   },
   "minimala_versija": "",
-  "paraksts": "CKSAID2DQF6MUYP2VH3Q4MZWTCFF3N4IUXX5X47IS7H7O2Y4GMHIPPA5SX4OI3HFRN3H2WIEZH5XMD33CX6GLBYYCPLECSZFNVXBADI"
+  "paraksts": "4ASZFQDPJ5FPRRSNCS4GNONNBKG6PM5TOUL4SWRRD7MKKH76BLXEIH36LXSJQ4ERGGOQFADQG4SYRPQ7O2JB2TMOVIEEEF4CAQEM2BQ"
 }
