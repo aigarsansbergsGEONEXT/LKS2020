@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.5",
-  "datums": "2026-10-09",
-  "kas_jauns": "Koordinātu pārrēķina akta virsraksts: „… KOORDINĀTU PĀRRĒĶINS UZ LKS-2020 TM KOORDINĀTU SISTĒMU“. No 1.4.5: akts ar pogu „Sagatavot aktu…“ (pārrēķinātājs, uzņēmums, datums; bez paraksta rindas); no 1.4.3: koordinātu sarakstos ar abām koordinātām 280–470 km pieņem X = ziemeļi, Y = austrumi, pajautā un brīdina; galvene Nr;X;Y secību nosaka.",
+  "versija": "1.4.6",
+  "datums": "2026-10-12",
+  "kas_jauns": "Labots: ja DWG satur bloka ierakstu bez nosaukuma (bojāts fails), AutoCAD rezultātu neimportēja („Error in BLOCK_RECORD Table“, „DXF->DWG neizdevās“) — tagad šādus tukšos ierakstus programma izņem un žurnālā par to ziņo. No 1.4.3–1.4.6: koordinātu sarakstu X/Y secība pārklājuma zonā, galvene Nr;X;Y, koordinātu pārrēķina akts PDF ar pogu „Sagatavot aktu…“.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.5/LKS2020_parrekins.exe",
-      "sha256": "3ba4036f8de3e0b6e726480b3b3e78b59fd7df01b3cb2947ba423a75b699747b",
-      "baiti": 35273789
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.6/LKS2020_parrekins.exe",
+      "sha256": "b691f344a6be75db7864a3f3076ee1b4f9dc5b2d5bd46c655024dfd96697cae5",
+      "baiti": 35275441
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.5/LKS2020_cmd.exe",
-      "sha256": "38b7084e26751216b3a583fd35af467102dc0e3fb52e1fe2b34c6561aee15c36",
-      "baiti": 35279508
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.6/LKS2020_cmd.exe",
+      "sha256": "485019fa0817bd07b1f5b55324e6413cf0888548d846e433e4ca54d0a17f918c",
+      "baiti": 35279241
     }
   },
   "minimala_versija": "",
-  "paraksts": "5M22EKRWDKN573X6HKJ3ZCONKWWJRRPTXBBVOIXDX5X7UYH27FPGWITV5GYNNCRVZMTXVI6SYGOAIAH7K2YJGZTYPISLEJ2MUM2TOCI"
+  "paraksts": "G7EPGCBXJ2MMA2GTHF6TYA5I4SSW4TTZP7NJ2MLY6BR5WDQT3VRCHF554XX4Z47IAQGOPYBOGZALBAGPD2XSQO47RMPAVFRDYJW7WCY"
 }
