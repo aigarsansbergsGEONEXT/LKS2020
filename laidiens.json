@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.6",
-  "datums": "2026-10-12",
-  "kas_jauns": "Labots: ja DWG satur bloka ierakstu bez nosaukuma (bojāts fails), AutoCAD rezultātu neimportēja („Error in BLOCK_RECORD Table“, „DXF->DWG neizdevās“) — tagad šādus tukšos ierakstus programma izņem un žurnālā par to ziņo. No 1.4.3–1.4.6: koordinātu sarakstu X/Y secība pārklājuma zonā, galvene Nr;X;Y, koordinātu pārrēķina akts PDF ar pogu „Sagatavot aktu…“.",
+  "versija": "1.4.7",
+  "datums": "2026-10-13",
+  "kas_jauns": "Labots: datoros, kur AutoCAD, pārdefinējot bloku, jautā „Block … already exists. Redefine it?“, OLE bloku atjaunošana apstājās līdz taimautam („AutoCAD neatbildēja 196 s“, fails atteikts). Tagad bloku pārdēvē, ievieto no jauna un atsauces pārliek — jautājums nerodas nevienā AutoCAD. No 1.4.3–1.4.6: koordinātu sarakstu X/Y secība pārklājuma zonā, akts PDF ar pogu „Sagatavot aktu…“, bloku ieraksti bez nosaukuma.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.6/LKS2020_parrekins.exe",
-      "sha256": "b691f344a6be75db7864a3f3076ee1b4f9dc5b2d5bd46c655024dfd96697cae5",
-      "baiti": 35275441
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.7/LKS2020_parrekins.exe",
+      "sha256": "ea4854b95bf68eb9f78441ff8377c74cd854d52abe859ddb86a5daef89fffac7",
+      "baiti": 35277297
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.6/LKS2020_cmd.exe",
-      "sha256": "485019fa0817bd07b1f5b55324e6413cf0888548d846e433e4ca54d0a17f918c",
-      "baiti": 35279241
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.7/LKS2020_cmd.exe",
+      "sha256": "d68b1be2b69f38e2a07a4ecfce9faccbf2b65ccf8954cebd639e5dda631b10e4",
+      "baiti": 35282413
     }
   },
   "minimala_versija": "",
-  "paraksts": "G7EPGCBXJ2MMA2GTHF6TYA5I4SSW4TTZP7NJ2MLY6BR5WDQT3VRCHF554XX4Z47IAQGOPYBOGZALBAGPD2XSQO47RMPAVFRDYJW7WCY"
+  "paraksts": "5RHFQLNPZ6S3ENAYQBXEXQEKVURSZNPQHNK7KHL5U6TOQHIRVXWREVJYV4VWOE7T4ZIWB3ORXMU3DX4JA6YAVCWACI4K3UL6OB7BODI"
 }
