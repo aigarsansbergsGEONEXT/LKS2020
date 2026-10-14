@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.7",
-  "datums": "2026-10-13",
-  "kas_jauns": "Labots: datoros, kur AutoCAD, pārdefinējot bloku, jautā „Block … already exists. Redefine it?“, OLE bloku atjaunošana apstājās līdz taimautam („AutoCAD neatbildēja 196 s“, fails atteikts). Tagad bloku pārdēvē, ievieto no jauna un atsauces pārliek — jautājums nerodas nevienā AutoCAD. No 1.4.3–1.4.6: koordinātu sarakstu X/Y secība pārklājuma zonā, akts PDF ar pogu „Sagatavot aktu…“, bloku ieraksti bez nosaukuma.",
+  "versija": "1.4.8",
+  "datums": "2026-10-14",
+  "kas_jauns": "Labots: ja DWG programmu reģistrā (APPID) vai citā simbolu tabulā ir ieraksts bez nosaukuma (bojāts fails), AutoCAD rezultātu neimportēja („Error in APPID Table“, „DXF->DWG neizdevās“) — tagad šādus tukšos ierakstus programma izņem un žurnālā par to ziņo. No 1.4.7: OLE bloku atjaunošana neatkarīga no AutoCAD uzvedņu secības, bloku nosaukumi ar latviešu burtiem.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.7/LKS2020_parrekins.exe",
-      "sha256": "ea4854b95bf68eb9f78441ff8377c74cd854d52abe859ddb86a5daef89fffac7",
-      "baiti": 35277297
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.8/LKS2020_parrekins.exe",
+      "sha256": "3607e013d9a4963eec6defa57e2a19bcd01502d77440c12912c6e53246ec0401",
+      "baiti": 35278307
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.7/LKS2020_cmd.exe",
-      "sha256": "d68b1be2b69f38e2a07a4ecfce9faccbf2b65ccf8954cebd639e5dda631b10e4",
-      "baiti": 35282413
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.8/LKS2020_cmd.exe",
+      "sha256": "9455071ce4266365ca9a04c7f46b1c897d89d288bc1111b825732f3d4887ccb2",
+      "baiti": 35281796
     }
   },
   "minimala_versija": "",
-  "paraksts": "5RHFQLNPZ6S3ENAYQBXEXQEKVURSZNPQHNK7KHL5U6TOQHIRVXWREVJYV4VWOE7T4ZIWB3ORXMU3DX4JA6YAVCWACI4K3UL6OB7BODI"
+  "paraksts": "S7YGS7B4WT3WXN7MTXXRX4UA3Y5Y5EYJPJFFSMJCVX2NUY4IMGHOW3HDXGFZPQ5JAR3XF5XM7VWFTAY4BFCTPEY6ZN74FL2EAT6J4DY"
 }
