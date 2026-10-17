@@ -1,19 +1,19 @@
 {
-  "versija": "1.4.8",
-  "datums": "2026-10-14",
-  "kas_jauns": "Labots: ja DWG programmu reģistrā (APPID) vai citā simbolu tabulā ir ieraksts bez nosaukuma (bojāts fails), AutoCAD rezultātu neimportēja („Error in APPID Table“, „DXF->DWG neizdevās“) — tagad šādus tukšos ierakstus programma izņem un žurnālā par to ziņo. No 1.4.7: OLE bloku atjaunošana neatkarīga no AutoCAD uzvedņu secības, bloku nosaukumi ar latviešu burtiem.",
+  "versija": "1.4.9",
+  "datums": "2026-10-17",
+  "kas_jauns": "Labots: DWG failos ar Civil 3D / AutoCAD Architecture vienību iestatījumiem (piem. topografija.lv ADTI planšetes) rezultātā mainījās zīmējuma vienības INSUNITS (metri → collas vai pēdas), lai gan koordinātas bija pareizas — tagad INSUNITS un AEC vienības paliek kā oriģinālā. Drošāka darbība ar AutoCAD bez Civil 3D / Architecture paplašinājumiem.",
   "faili": {
     "LKS2020_parrekins.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.8/LKS2020_parrekins.exe",
-      "sha256": "3607e013d9a4963eec6defa57e2a19bcd01502d77440c12912c6e53246ec0401",
-      "baiti": 35278307
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.9/LKS2020_parrekins.exe",
+      "sha256": "9f10360f4a83350aa9f2e5f3efdc91f977a0fb5526b06387161f6875a3cf3f3b",
+      "baiti": 35277760
     },
     "LKS2020_cmd.exe": {
-      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.8/LKS2020_cmd.exe",
-      "sha256": "9455071ce4266365ca9a04c7f46b1c897d89d288bc1111b825732f3d4887ccb2",
-      "baiti": 35281796
+      "url": "https://github.com/aigarsansbergsGEONEXT/LKS2020/releases/download/v1.4.9/LKS2020_cmd.exe",
+      "sha256": "b1efcf0399b9f5bae06c9598be5f89c629a544e4949d67fa0c85e0e72f166bf4",
+      "baiti": 35283698
     }
   },
   "minimala_versija": "",
-  "paraksts": "S7YGS7B4WT3WXN7MTXXRX4UA3Y5Y5EYJPJFFSMJCVX2NUY4IMGHOW3HDXGFZPQ5JAR3XF5XM7VWFTAY4BFCTPEY6ZN74FL2EAT6J4DY"
+  "paraksts": "6B3GKCJZMR36MA2CZDTYOPSW3FEWSIQHGJHBY5CO7MWPSHKOTTAEDZYPR67VGWZHHH3LAZHXM2FYN5SCVDN526XM3W6TUFQELSJH6DA"
 }
